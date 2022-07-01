@@ -1,8 +1,8 @@
-# MernShopifyCart
+## Project React Shopify
 
-A mini MERN ecommerce project where authenticate user can fetch the products, see their details and add the products to cart.
+A mini project ecommerce where authenticate user can fetch the products, see their details and add the products to cart.
 
-# Configuration
+## Configuration
 
 Create .env file in root directory and fill in the following details:
 
@@ -10,13 +10,13 @@ Create .env file in root directory and fill in the following details:
 PORT=5000
 MONGO_URI='YOUR DB URI'
 
-#For JWT Authentication
+##For JWT Authentication
 JWT_SECRET='YOUR SECRET KEY'
 JWT_EXPIRE='10min'
 
 NODE_ENV='development/production'
 
-#For Password Reset
+##For Password Reset
 EMAIL_SERVICE=''
 EMAIL_HOST=''
 EMAIL_PORT=''
@@ -25,7 +25,7 @@ EMAIL_PASSWORD=''
 EMAIL_FROM=''
 ```
 
-# Quick Start
+## Quick Start
 
 ```javascript
 //Install dependencies for server and client
